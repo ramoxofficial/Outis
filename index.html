@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ducky1shop</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://digifycdn.com/media/item_images/IMG_20241020_203653_553.jpg');
+            background-size: cover;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: black;
+            position: relative;
+        }
+        h1 {
+            font-size: 48px;
+            margin-top: 50px;
+            position: relative;
+            z-index: 2;
+        }
+        img {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+            position: relative;
+            z-index: 2;
+        }
+        .shop-button, .telegram-button, .instagram-button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            font-size: 24px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 2;
+        }
+        .shop-button {
+            background-color: yellow;
+        }
+        .shop-button:hover {
+            background-color: orange;
+            transform: scale(1.05);
+        }
+        .telegram-button {
+            background-color: #0088cc; /* رنگ آبی تلگرام */
+        }
+        .telegram-button:hover {
+            background-color: #007bbf;
+            transform: scale(1.05);
+        }
+        .instagram-button {
+            background-color: #e1306c; /* رنگ اینستاگرام */
+        }
+        .instagram-button:hover {
+            background-color: #c13584;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Ducky1shop</h1>
+    <img src="https://digifycdn.com/media/item_images/IMG_20241020_203914_554.jpg" alt="Product Image">
+    <div>
+        <button class="shop-button" onclick="window.location.href='https://t.me/ou2is'">Shop</button>
+        <button class="telegram-button" onclick="window.location.href='https://t.me/ouTis3'">Telegram</button>
+        <button class="instagram-button" onclick="window.location.href='https://www.instagram.com/ducky1shop?igsh=MXJrNGkyY2JhOHE3ag%3D%3D&utm_source=qr'">Instagram</button>
+    </div>
+</body>
+</html>
